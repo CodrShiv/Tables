@@ -10,7 +10,7 @@ body, html {
 }
 body {
     padding: 1rem 0;
-    background-color: #a4fff9;
+    background-color: #FFC0CB;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,19 +34,19 @@ body {
 }
 h1 {
     font-weight: 600;
-    color: hsl(176, 100%, 40%);
+    color: #FFF;
     font-size: 4rem;
 }
 input {
-    background-color: #a4fff9;
+    background-color: hsl(350, 100%, 85%);
     padding: .75rem 1rem;
-    color: hsl(176, 100%, 40%);
+    color: #FFF;
 }
 input::placeholder {
-    color: hsl(176, 100%, 40%);
+    color: #FFF;
 }
 button {
-    background-color: hsl(176, 100%, 40%);
+    background-color: hsl(350, 100%, 75%);
     padding: .5rem 1rem;
     color: #FFF;
 }
@@ -64,5 +64,5 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 #tables {
-    color: hsl(176, 100%, 40%);
+    color: hsl(350, 100%, 75%);
 }
